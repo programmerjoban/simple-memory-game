@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This is the page head - it contains info the browser uses to display the page-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello World!</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons.
+    </p>
+    <p>
+      Rules of the game:
+    </p>
+    
+    <!--  list the rules of the game    -->
+    <ul id="list">
+      <li>The speed of the pattern increases each playback</li>
+      <li>The patterns are selected randomly</li>
+      <li>You are allowed 2 mistakes. Keep an eye on the strike counter!</li>
+    </ul>
+    
+    <!-- start btn     -->
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    
+    <!-- stop btn     -->
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <!--  strikes counter    -->
+    <h2 id="strikesCounter">Strikes: 0</h2>
+    
+    <!--  Contaians all of the 6 button pressed to repeat back the pattern  -->
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+      <!--     add image of mario to button 1     -->
+        <img src="https://cdn.glitch.global/2bcd222c-ae75-4f91-b74f-3cd255ffdf48/mario.png?v=1646203675884" alt="mario" class="hidden" width="100" height="150">
+      </button>
+      
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <!--     add image of luigi to button 2     -->
+        <img src="https://cdn.glitch.global/2bcd222c-ae75-4f91-b74f-3cd255ffdf48/luigi.png?v=1646203669422" alt="luigi" class="hidden" width="200" height="150">
+      </button>
+      
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <!--     add image of yoshi to button 3     -->
+        <img src="https://cdn.glitch.global/2bcd222c-ae75-4f91-b74f-3cd255ffdf48/Yoshi.png?v=1646203692512" alt="yoshi" class="hidden" width="120" height="150">
+      </button>
+      
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <!--     add image of bowser to button 4     -->
+        <img src="https://cdn.glitch.global/2bcd222c-ae75-4f91-b74f-3cd255ffdf48/Bowser.png?v=1646203661125" alt="bowser" class="hidden" width="150" height="150">
+      </button>
+      
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <!--     add image of donkeykong to button 5     -->
+        <img src="https://cdn.glitch.global/2bcd222c-ae75-4f91-b74f-3cd255ffdf48/donkeykong.png?v=1646203666592" alt="doneykong" id="img5" class="hidden" width="130" height="150">
+      </button>
+      
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <!--     add image of drybones to button 6     -->
+        <img src="https://cdn.glitch.global/2bcd222c-ae75-4f91-b74f-3cd255ffdf48/drybones.png?v=1646228803712" alt="drybones"  class="hidden" width="130" height="150">
+      </button>
+    </div>
+    
+  </body>
+</html>
