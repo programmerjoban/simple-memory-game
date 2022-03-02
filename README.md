@@ -6,7 +6,7 @@ Submitted by: **Jobanpreet Singh**
 
 Time spent: **4.5** hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/cumbersome-buttered-cross?path=index.html%3A20%3A7)
+Link to project: (https://glitch.com/edit/#!/cumbersome-buttered-cross)
 
 ## Required Functionality
 
