@@ -45,10 +45,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[1. https://www.geeksforgeeks.org/css-display-property/
- 2. https://www.w3schools.com/css/css_align.asp
- 3. https://www.w3schools.com/colors/colors_names.asp
- 4. https://devdocs.io/javascript/]
+[https://www.geeksforgeeks.org/css-display-property/
+ https://www.w3schools.com/css/css_align.asp
+ https://www.w3schools.com/colors/colors_names.asp
+ https://devdocs.io/javascript/]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [While completing the prework, a challenge I encountered was speeding up the clue playback on each turn to make the game harder. At first, I decided to reduce the clue playback speed by 25 ms each turn, but this caused an issue with small patterns. For instance, when the pattern array had a length of five, the clue playback was slow for the user. Then, I changed the variable, clueHoldTime, to 300 ms and came across another issue. The playback was incomprehensible if I reduced the hold time by more than 200 ms. Applying brute force to this feature was not the best solution. After a while, I noticed a relationship between the speed that is comprehensible and the length of the pattern. I decided to reduce the initial hold time of 1000 ms each turn by the ratio of 200/pattern length. Thus, the clue hold time will be 200 ms faster than the starting point at the end of the progression of the pattern.
