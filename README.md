@@ -40,7 +40,11 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
+The first gif shows the user winning while making one mistake. 
 ![](https://github.com/programmerjoban/simple-memory-game/blob/main/walkthrough1.gif)
+
+The second gif shows the user playing a different pattern and losing after 3 mistakes
 ![](https://github.com/programmerjoban/simple-memory-game/blob/main/walkthrough2.gif)
 
 ## Reflection Questions
@@ -68,6 +72,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](https://www.loom.com/share/3c6b86291baa4601b155451e11fd9e6b)
+
+If the above does not work try to copy paste this url into the search engine (https://www.loom.com/share/3c6b86291baa4601b155451e11fd9e6b).
 
 
 ## License
