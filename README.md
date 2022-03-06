@@ -4,7 +4,7 @@
 
 Submitted by: **Jobanpreet Singh**
 
-Time spent: **4.5** hours spent in total
+Time spent: **4.75** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/cumbersome-buttered-cross)
 
@@ -45,16 +45,20 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+[1. https://www.geeksforgeeks.org/css-display-property/
+ 2. https://www.w3schools.com/css/css_align.asp
+ 3. https://www.w3schools.com/colors/colors_names.asp
+ 4. https://devdocs.io/javascript/]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[While completing the prework, a challenge I encountered was speeding up the clue playback on each turn to make the game harder. At first, I decided to reduce the clue playback speed by 25 ms each turn, but this caused an issue with small patterns. For instance, when the pattern array had a length of five, the clue playback was slow for the user. Then, I changed the variable, clueHoldTime, to 300 ms and came across another issue. The playback was incomprehensible if I reduced the hold time by more than 200 ms. Applying brute force to this feature was not the best solution. After a while, I noticed a relationship between the speed that is comprehensible and the length of the pattern. I decided to reduce the initial hold time of 1000 ms each turn by the ratio of 200/pattern length. Thus, the clue hold time will be 200 ms faster than the starting point at the end of the progression of the pattern.
+Another challenge I overcame while completing the prework was relearning the syntax of javascript. About two years ago, I was assigned to create a portfolio webpage using HTML and CSS. I wanted to add additional features to my webpage, so I self-taught the basic syntax of javascript. To implement the code in javascript for the prework, I reviewed the syntax by reading the javascript documentation and sample code online. Overall, I enjoyed working on these challenges because I used my previous knowledge and multiple strategies.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[The prework was intriguing, and after completing the assignment, I had multiple questions about web development. The first question I have is how is the data updated from an API in real-time on a webpage? It will be great to learn this feature because then I can implement a webpage that can keep track of the stock market. It will alert the users when there is a chance of profit from the selected stock. Talking about alerts leads to my second question, how can I create different alert messages? Being familiar with other kinds of alert messages will make the webpage more user-friendly. In general, I want to improve my knowledge of interacting with servers in the backend and the visual appearance of a webpage.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[To improve the current prework submission, I would like to create different difficulty levels and produce musical patterns. The difficulty can be increased by increasing the speed and limiting the time to repeat the patterns. Time can be added to the webpage using the javascript timer functions such as setInterval and clearInterval. Also, it would be great to build a visual timer using CSS. Furthermore, I realized all musical notes have unique frequencies. The frequencies could generate a random pattern of a musical sound that the users can use to practice remembering musical tones. Overall, adding these functions will make the game more intriguing and user-friendly.]
 
 
 
@@ -65,7 +69,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Jobanpreet Singh]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
