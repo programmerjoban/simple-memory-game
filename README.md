@@ -73,7 +73,7 @@ The second gif shows the user playing a different pattern and losing after 3 mis
 
 [My 5-minute Interview Recording](https://www.loom.com/share/3c6b86291baa4601b155451e11fd9e6b)
 
-If the above does not work try to copy paste this url into the search engine "https://www.loom.com/share/3c6b86291baa4601b155451e11fd9e6b".
+URL incase needed: https://www.loom.com/share/3c6b86291baa4601b155451e11fd9e6b
 
 
 ## License
